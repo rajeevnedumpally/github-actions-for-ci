@@ -9,5 +9,5 @@ jobs:
          env:
            APPROVALS: 1
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-           ADD_LABEL: 'approved by ${{ github.actor }}'
+           ADD_LABEL: 'Approved by ${{ github.actor }}'
     
